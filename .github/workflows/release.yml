@@ -1,0 +1,52 @@
+# Builds an installable theme archive (kmwcnc.zip → kmwcnc/ folder) and
+# attaches it to a GitHub Release whenever a version tag (v*) is pushed.
+#
+#   1. Bump Version in style.css and ULX_VERSION in functions.php
+#   2. git commit && git tag v2.5.1 && git push && git push origin v2.5.1
+#
+# Latest build: https://github.com/charliezhang211/kmwcnc/releases/latest/download/kmwcnc.zip
+
+name: Release theme zip
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check tag matches theme version
+        run: |
+          TAG_VERSION="${GITHUB_REF_NAME#v}"
+          STYLE_VERSION=$(sed -n 's/^Version:[[:space:]]*//p' style.css | tr -d '\r')
+          PHP_VERSION=$(sed -n "s/.*define('ULX_VERSION', '\([^']*\)').*/\1/p" functions.php)
+          echo "tag=$TAG_VERSION style.css=$STYLE_VERSION functions.php=$PHP_VERSION"
+          if [ "$TAG_VERSION" != "$STYLE_VERSION" ] || [ "$TAG_VERSION" != "$PHP_VERSION" ]; then
+            echo "::error::Tag $GITHUB_REF_NAME does not match style.css ($STYLE_VERSION) / ULX_VERSION ($PHP_VERSION)"
+            exit 1
+          fi
+
+      - name: Build kmwcnc.zip
+        # git archive honours export-ignore in .gitattributes
+        run: |
+          git archive --format=zip --prefix=kmwcnc/ -o kmwcnc.zip HEAD
+          unzip -l kmwcnc.zip | tail -n 1
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" kmwcnc.zip --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" kmwcnc.zip \
+              --title "KMW CNC theme $GITHUB_REF_NAME" \
+              --generate-notes
+          fi
