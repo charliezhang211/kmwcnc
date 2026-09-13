@@ -1,0 +1,48 @@
+{
+  "assets/fonts/barlow-600.woff2": {
+    "file": "assets/barlow-600-DILqtrty.woff2",
+    "src": "assets/fonts/barlow-600.woff2"
+  },
+  "assets/fonts/barlow-700.woff2": {
+    "file": "assets/barlow-700-A9pxMQ4z.woff2",
+    "src": "assets/fonts/barlow-700.woff2"
+  },
+  "assets/fonts/barlow-800.woff2": {
+    "file": "assets/barlow-800-s1sAMnoV.woff2",
+    "src": "assets/fonts/barlow-800.woff2"
+  },
+  "assets/fonts/inter-500.woff2": {
+    "file": "assets/inter-500-D2bGa7uu.woff2",
+    "src": "assets/fonts/inter-500.woff2"
+  },
+  "assets/fonts/inter-600.woff2": {
+    "file": "assets/inter-600-D273HNI0.woff2",
+    "src": "assets/fonts/inter-600.woff2"
+  },
+  "assets/fonts/inter-700.woff2": {
+    "file": "assets/inter-700-Sckx8rpT.woff2",
+    "src": "assets/fonts/inter-700.woff2"
+  },
+  "assets/fonts/inter-regular.woff2": {
+    "file": "assets/inter-regular-BOOGhInR.woff2",
+    "src": "assets/fonts/inter-regular.woff2"
+  },
+  "assets/js/app.js": {
+    "file": "assets/app-BvUP5948.js",
+    "name": "app",
+    "src": "assets/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-irPkesPX.css"
+    ],
+    "assets": [
+      "assets/barlow-600-DILqtrty.woff2",
+      "assets/barlow-700-A9pxMQ4z.woff2",
+      "assets/barlow-800-s1sAMnoV.woff2",
+      "assets/inter-regular-BOOGhInR.woff2",
+      "assets/inter-500-D2bGa7uu.woff2",
+      "assets/inter-600-D273HNI0.woff2",
+      "assets/inter-700-Sckx8rpT.woff2"
+    ]
+  }
+}
