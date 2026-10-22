@@ -56,7 +56,7 @@ get_header();
 
             <?php
             $expertise = [
-                ['img' => 'http://kmwcnc.com/wp-content/uploads/2025/11/Aluminum-CNC-Parts.webp',      'title' => 'Aluminum CNC Parts',         'desc' => 'Lightweight and versatile. We machine standard grades like 6061 and 7075 for automotive, robotics, and industrial structural components.'],
+                ['img' => 'http://kmwcnc.com/wp-content/uploads/2025/11/Aluminum-CNC-Parts.webp',      'title' => 'Aluminum CNC Parts',         'desc' => 'Lightweight and versatile. We machine standard grades like 6061 and 7075 for automotive, electronics, and industrial structural components.'],
                 ['img' => 'http://kmwcnc.com/wp-content/uploads/2025/11/Stainless-Steel-Parts.webp',   'title' => 'Stainless Steel Parts',      'desc' => 'High tensile strength and corrosion resistance. Ideal for medical devices and marine applications using SS304 and SS316L.'],
                 ['img' => 'http://kmwcnc.com/wp-content/uploads/2025/11/Brass-Bronze-Machining.webp',  'title' => 'Brass & Bronze Machining',   'desc' => 'Low friction and excellent electrical conductivity. Perfect for bushings, bearings, and electrical connectors.'],
                 ['img' => 'http://kmwcnc.com/wp-content/uploads/2025/11/Machined-Plastic-Parts.webp',  'title' => 'Machined Plastic Parts',     'desc' => 'From PEEK to Delrin (POM). We machine complex plastic geometries without molds for rapid testing and insulation.'],
@@ -244,7 +244,7 @@ get_header();
                 ['title' => 'As-Machined (Standard)',           'desc' => 'The most cost-effective option. CNC parts retain their natural, clean machined finish. Tolerances and surface roughness as specified (Ra 0.8-3.2μm typical).'],
                 ['title' => 'Bead Blasting',                    'desc' => 'A uniform matte or satin finish produced by blasting glass beads or other media — removes tool marks and provides an elegant, professional look.'],
                 ['title' => 'Anodizing Type II (Standard)',     'desc' => 'Protective oxide layer on aluminum parts. Available in multiple colors (black, blue, red, gold). Provides corrosion resistance and a decorative finish.'],
-                ['title' => 'Anodizing Type III (Hardcoat)',    'desc' => 'Thicker, harder oxide layer for demanding applications. Excellent wear and corrosion resistance — ideal for automotive, robotics, and industrial equipment parts. Black/dark finishes.'],
+                ['title' => 'Anodizing Type III (Hardcoat)',    'desc' => 'Thicker, harder oxide layer for demanding applications. Excellent wear and corrosion resistance — ideal for automotive, electronics, and industrial equipment parts. Black/dark finishes.'],
                 ['title' => 'Powder Coating',                   'desc' => 'Durable, thick coating available in many colors. Applied electrostatically and cured under heat. Excellent for enclosures, brackets, and housing parts.'],
                 ['title' => 'Electropolishing / Passivation',   'desc' => 'Electrochemical surface treatment for stainless steel parts. Smooths micro-irregularities, improves corrosion resistance, and creates a bright, sanitary finish.'],
             ];
@@ -272,7 +272,7 @@ get_header();
                     CNC Machining Solutions for Critical Industries
                 </h2>
                 <p class="text-muted max-w-3xl mx-auto">
-                    From medical and automotive to electronics and robotics, our parts perform in the most demanding environments.
+                    From medical and automotive to electronics and industrial hardware, our parts perform in the most demanding environments.
                 </p>
             </div>
 
@@ -306,16 +306,9 @@ get_header();
                     'url'   => '/industry/cnc-hardware-parts/',
                     'btn'   => 'Request Hardware Quote',
                 ],
-                [
-                    'title' => 'Robotics &amp; Automation',
-                    'desc'  => 'Powering smart manufacturing. We produce high-precision components for robotics, automation systems, and articulated arm assemblies.',
-                    'img'   => 'http://kmwcnc.com/wp-content/uploads/2025/11/Robotics-applocation.webp',
-                    'url'   => '/industry/robotics-automation-parts/',
-                    'btn'   => 'Request Robotics Quote',
-                ],
             ];
             ?>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
                 <?php foreach ($industries as $ind) : ?>
                     <div class="rounded-lg overflow-hidden bg-surface border border-border/50">
                         <div class="aspect-[4/3] overflow-hidden">

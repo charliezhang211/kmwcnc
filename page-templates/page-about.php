@@ -72,7 +72,7 @@ $contact_url = get_permalink(get_page_by_path('contact')) ?: home_url('/contact/
                 Who We Are: Your Strategic Manufacturing Partner
             </h2>
             <p class="text-muted leading-relaxed mb-8 max-w-4xl">
-                Shenzhen Kaimingwei Technology Co., Limited is headquartered in Shenzhen, China — one of the world's leading hubs for advanced manufacturing and engineering. With a focus on precision CNC machining, we serve industries where quality and accuracy are non-negotiable: medical, automotive, electronics, robotics, and beyond. From a single prototype to full-scale production runs, we are your comprehensive manufacturing solution.
+                Shenzhen Kaimingwei Technology Co., Limited is headquartered in Shenzhen, China — one of the world's leading hubs for advanced manufacturing and engineering. With a focus on precision CNC machining, we serve industries where quality and accuracy are non-negotiable: medical, automotive, electronics, industrial hardware, and beyond. From a single prototype to full-scale production runs, we are your comprehensive manufacturing solution.
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -92,7 +92,7 @@ $contact_url = get_permalink(get_page_by_path('contact')) ?: home_url('/contact/
                         <a href="<?php echo esc_url(home_url('/industry/cnc-medical-parts/')); ?>" class="text-accent hover:underline">Medical Devices</a>,
                         <a href="<?php echo esc_url(home_url('/industry/cnc-auto-parts/')); ?>" class="text-accent hover:underline">Automotive &amp; EV</a>,
                         <a href="<?php echo esc_url(home_url('/industry/cnc-electronic-components/')); ?>" class="text-accent hover:underline">Electronic Components</a>, and
-                        <a href="<?php echo esc_url(home_url('/industry/robotics-automation-parts/')); ?>" class="text-accent hover:underline">Robotics &amp; Automation</a>.
+                        <a href="<?php echo esc_url(home_url('/industry/cnc-hardware-parts/')); ?>" class="text-accent hover:underline">Industrial Hardware</a>.
                     </p>
                 </div>
                 <div>

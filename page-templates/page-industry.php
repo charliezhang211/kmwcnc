@@ -25,7 +25,7 @@ get_header();
                 Precision Manufacturing Solutions for Critical Industries
             </h1>
             <p class="text-center text-white/80 max-w-3xl mx-auto mb-8">
-                From life-saving medical devices to automotive and robotics components, KMW CNC delivers ISO 9001 certified parts tailored to your industry's specific standards.
+                From life-saving medical devices to automotive and electronic components, KMW CNC delivers ISO 9001 certified parts tailored to your industry's specific standards.
             </p>
             <div class="text-center">
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn-accent">
@@ -73,15 +73,9 @@ get_header();
                     'img'   => 'http://kmwcnc.com/wp-content/uploads/2025/11/CNC-Hardware-Parts-application.webp',
                     'link'  => '/industry/cnc-hardware-parts/',
                 ],
-                [
-                    'title' => 'Robotics & Automation',
-                    'desc'  => 'High-precision gears, joints, and end-effectors for industrial robots and collaborative automation systems.',
-                    'img'   => 'http://kmwcnc.com/wp-content/uploads/2025/11/Robotics-applocation.webp',
-                    'link'  => '/industry/robotics-automation-parts/',
-                ],
             ];
             ?>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <?php foreach ($industries as $item) : ?>
                     <a href="<?php echo esc_url(home_url($item['link'])); ?>" class="group bg-surface rounded-lg overflow-hidden border border-border/50 hover:shadow-lg transition-shadow">
                         <div class="aspect-[4/3] overflow-hidden">

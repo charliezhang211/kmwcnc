@@ -9,7 +9,7 @@
 defined('ABSPATH') || exit;
 
 // Theme version
-define('ULX_VERSION', '2.5.0');
+define('ULX_VERSION', '2.5.1');
 define('ULX_DIR', get_template_directory());
 define('ULX_URI', get_template_directory_uri());
 

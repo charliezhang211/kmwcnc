@@ -78,7 +78,6 @@ $contact_url = get_permalink(get_page_by_path('contact')) ?: home_url('/contact/
                             'industry/cnc-auto-parts'                 => 'Automotive & EV',
                             'industry/cnc-hardware-parts'             => 'Industrial Hardware',
                             'industry/cnc-electronic-components'      => 'Electronic Components',
-                            'industry/robotics-automation-parts'      => 'Robotics & Automation',
                         ];
                         foreach ($industries as $slug => $label) :
                         ?>

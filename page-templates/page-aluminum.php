@@ -37,7 +37,7 @@ get_header();
                 Why Choose Aluminum for Your CNC Projects?
             </h2>
             <p class="text-muted max-w-4xl mx-auto text-center leading-relaxed">
-                Aluminum is the most versatile material in modern manufacturing. It offers an exceptional <strong class="text-text">strength-to-weight ratio</strong>, making it ideal for automotive, robotics, and electronic parts. It is highly machinable, which reduces cycle times and costs compared to steel. Additionally, aluminum naturally forms a protective oxide layer, which can be further enhanced through <strong class="text-text">Anodizing</strong> for durability and aesthetics. At KMW CNC, we stock premium grades to ensure your parts meet strict mechanical and cosmetic standards.
+                Aluminum is the most versatile material in modern manufacturing. It offers an exceptional <strong class="text-text">strength-to-weight ratio</strong>, making it ideal for automotive, electronic, and industrial hardware parts. It is highly machinable, which reduces cycle times and costs compared to steel. Additionally, aluminum naturally forms a protective oxide layer, which can be further enhanced through <strong class="text-text">Anodizing</strong> for durability and aesthetics. At KMW CNC, we stock premium grades to ensure your parts meet strict mechanical and cosmetic standards.
             </p>
         </div>
     </section>
@@ -64,7 +64,7 @@ get_header();
                         'icon'  => 'zap',
                         'tag'   => 'Strongest',
                         'desc'  => 'A zinc-alloyed aluminum with strength comparable to many steels. It has high fatigue resistance but is more expensive and harder to weld than 6061.',
-                        'best'  => 'Robot arm structures, rock climbing gear, bicycle frames, and high-stress molds.',
+                        'best'  => 'High-strength structural parts, rock climbing gear, bicycle frames, and high-stress molds.',
                     ],
                     [
                         'title' => 'Aluminum 5052 (Sheet Metal)',

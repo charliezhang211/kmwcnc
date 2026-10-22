@@ -86,7 +86,7 @@ get_header();
                             </tr>
                             <tr class="bg-card">
                                 <td class="px-5 py-3 font-medium text-text">Applications</td>
-                                <td class="px-5 py-3 text-muted">Implants, Surgical Robots, Endoscopes, Dental</td>
+                                <td class="px-5 py-3 text-muted">Implants, Surgical Instruments, Endoscopes, Dental</td>
                             </tr>
                         </tbody>
                     </table>
@@ -111,8 +111,8 @@ get_header();
                         'img'   => 'http://kmwcnc.com/wp-content/uploads/2025/12/Titanium-Bone-Plates.webp',
                     ],
                     [
-                        'title' => 'Robotic Surgical Arms',
-                        'desc'  => 'Complex stainless steel components for robotic surgery, requiring high strength and tight-tolerance linkage.',
+                        'title' => 'Precision Surgical Instruments',
+                        'desc'  => 'Complex stainless steel components for minimally invasive surgical tools, requiring high strength and tight-tolerance linkage.',
                         'img'   => 'http://kmwcnc.com/wp-content/uploads/2025/12/Surgical-Instruments.webp',
                     ],
                     [

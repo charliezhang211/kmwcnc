@@ -322,7 +322,8 @@ function ulx_seo_retired_redirects() {
     $path = trim((string) wp_parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
 
     $redirects = [
-        'industry/cnc-aerospace-parts' => '/industry/',
+        'industry/cnc-aerospace-parts'        => '/industry/',
+        'industry/robotics-automation-parts'  => '/industry/',
     ];
 
     if (isset($redirects[$path])) {

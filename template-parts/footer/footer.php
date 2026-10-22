@@ -69,7 +69,6 @@ $contact_url = get_permalink(get_page_by_path('contact')) ?: home_url('/contact/
                     <li><a href="<?php echo esc_url(home_url('/industry/cnc-medical-parts/')); ?>" class="hover:text-white transition-colors">Medical Devices</a></li>
                     <li><a href="<?php echo esc_url(home_url('/industry/cnc-auto-parts/')); ?>" class="hover:text-white transition-colors">Automotive &amp; EV</a></li>
                     <li><a href="<?php echo esc_url(home_url('/industry/cnc-electronic-components/')); ?>" class="hover:text-white transition-colors">Electronic Components</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/industry/robotics-automation-parts/')); ?>" class="hover:text-white transition-colors">Robotics &amp; Automation</a></li>
                     <li><a href="<?php echo esc_url(home_url('/industry/cnc-hardware-parts/')); ?>" class="hover:text-white transition-colors">Industrial Hardware</a></li>
                 </ul>
             </div>

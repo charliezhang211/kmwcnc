@@ -58,13 +58,11 @@ $contact_url = get_permalink(get_page_by_path('contact')) ?: home_url('/contact/
                 <?php
                 $logos = [
                     ['src' => '/wp-content/uploads/2025/11/logo-client-1.webp', 'alt' => 'AMETEK'],
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-2.webp', 'alt' => 'Client Partner'],
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-3.webp', 'alt' => 'Client Partner'],
+                    ['src' => '/wp-content/uploads/2025/11/logo-client-3.webp', 'alt' => 'TATA'],
                     ['src' => '/wp-content/uploads/2025/11/logo-client-4.webp', 'alt' => 'ABB'],
                     ['src' => '/wp-content/uploads/2025/11/logo-client-5.webp', 'alt' => 'DECA'],
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-6.webp', 'alt' => 'Client Partner'],
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-7.webp', 'alt' => 'KIKKOMAN'],
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-8.webp', 'alt' => 'Client Partner'],
+                    ['src' => '/wp-content/uploads/2025/11/logo-client-6.webp', 'alt' => 'Saint-Gobain'],
+                    ['src' => '/wp-content/uploads/2025/11/logo-client-7.webp', 'alt' => 'KÄRCHER'],
                 ];
                 foreach ($logos as $logo) :
                 ?>
@@ -193,7 +191,7 @@ $contact_url = get_permalink(get_page_by_path('contact')) ?: home_url('/contact/
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <?php
                 $industries = [
                     [
@@ -219,12 +217,6 @@ $contact_url = get_permalink(get_page_by_path('contact')) ?: home_url('/contact/
                         'desc'  => 'Custom hardware, fixtures, jigs, and tooling for industrial equipment and production lines.',
                         'img'   => 'http://kmwcnc.com/wp-content/uploads/2025/11/CNC-Hardware-Parts-application.webp',
                         'url'   => '/industry/cnc-hardware-parts/',
-                    ],
-                    [
-                        'title' => 'Robotics & Automation',
-                        'desc'  => 'High-precision actuator housings, gear assemblies, and end-effector components for next-gen robotics.',
-                        'img'   => 'http://kmwcnc.com/wp-content/uploads/2025/11/Robotics-applocation.webp',
-                        'url'   => '/industry/robotics-automation-parts/',
                     ],
                 ];
                 foreach ($industries as $ind) :

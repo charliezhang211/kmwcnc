@@ -105,7 +105,7 @@ get_header();
 
             <?php
             $expertise = [
-                ['img' => 'http://kmwcnc.com/wp-content/uploads/2025/11/Aluminum-CNC-Parts.webp',      'title' => 'Aluminum CNC Parts',         'desc' => 'Lightweight and versatile. We machine standard grades like 6061 and 7075 for automotive, robotics, and industrial structural components.'],
+                ['img' => 'http://kmwcnc.com/wp-content/uploads/2025/11/Aluminum-CNC-Parts.webp',      'title' => 'Aluminum CNC Parts',         'desc' => 'Lightweight and versatile. We machine standard grades like 6061 and 7075 for automotive, electronics, and industrial structural components.'],
                 ['img' => 'http://kmwcnc.com/wp-content/uploads/2025/11/Stainless-Steel-Parts.webp',   'title' => 'Stainless Steel Parts',      'desc' => 'High tensile strength and corrosion resistance. Ideal for medical devices and marine applications using SS304 and SS316L.'],
                 ['img' => 'http://kmwcnc.com/wp-content/uploads/2025/11/Brass-Bronze-Machining.webp',  'title' => 'Brass & Bronze Machining',   'desc' => 'Low friction and excellent electrical conductivity. Perfect for bushings, bearings, and electrical connectors.'],
                 ['img' => 'http://kmwcnc.com/wp-content/uploads/2025/11/Machined-Plastic-Parts.webp',  'title' => 'Machined Plastic Parts',     'desc' => 'From PEEK to Delrin (POM). We machine complex plastic geometries without molds for rapid testing and insulation.'],
@@ -156,10 +156,10 @@ get_header();
                         Deep Hole Drilling Capabilities
                     </h2>
                     <p class="text-muted leading-relaxed mb-6">
-                        Our CNC deep hole drilling machines handle depth-to-diameter ratios up to 30:1, producing straight, accurate holes for hydraulic cylinders, mold cooling channels, and long precision shafts. With gun drilling and BTA drilling processes, we achieve exceptional hole straightness and surface quality.
+                        Our CNC deep hole drilling machines handle depth-to-diameter ratios up to 30:1, producing straight, accurate holes for hydraulic cylinders, mold cooling channels, and long precision shafts. With deep-hole drilling and BTA drilling processes, we achieve exceptional hole straightness and surface quality.
                     </p>
                     <ul class="space-y-2 text-sm text-text">
-                        <li class="flex items-start gap-2"><?php echo ulx_icon('check', 'w-4 h-4 text-accent flex-shrink-0 mt-0.5'); ?> Gun drilling for small-diameter deep holes (&Oslash;2mm-&Oslash;25mm)</li>
+                        <li class="flex items-start gap-2"><?php echo ulx_icon('check', 'w-4 h-4 text-accent flex-shrink-0 mt-0.5'); ?> Deep-hole drilling for small diameters (&Oslash;2mm-&Oslash;25mm)</li>
                         <li class="flex items-start gap-2"><?php echo ulx_icon('check', 'w-4 h-4 text-accent flex-shrink-0 mt-0.5'); ?> BTA drilling for larger diameters with high precision</li>
                         <li class="flex items-start gap-2"><?php echo ulx_icon('check', 'w-4 h-4 text-accent flex-shrink-0 mt-0.5'); ?> Cross-hole and intersecting hole patterns</li>
                         <li class="flex items-start gap-2"><?php echo ulx_icon('check', 'w-4 h-4 text-accent flex-shrink-0 mt-0.5'); ?> Coolant-through tooling for chip evacuation and hole quality</li>
@@ -291,7 +291,7 @@ get_header();
                 ['title' => 'As-Machined (Standard)',           'desc' => 'The most cost-effective option. CNC drilled parts retain their natural, clean machined finish. Tolerances and surface roughness as specified (Ra 0.8-3.2μm typical).'],
                 ['title' => 'Bead Blasting',                    'desc' => 'A uniform matte or satin finish produced by blasting glass beads or other media — removes tool marks and provides an elegant, professional look.'],
                 ['title' => 'Anodizing Type II (Standard)',     'desc' => 'Protective oxide layer on aluminum parts. Available in multiple colors (black, blue, red, gold). Provides corrosion resistance and a decorative finish.'],
-                ['title' => 'Anodizing Type III (Hardcoat)',    'desc' => 'Thicker, harder oxide layer for demanding applications. Excellent wear and corrosion resistance — ideal for automotive, robotics, and industrial equipment parts.'],
+                ['title' => 'Anodizing Type III (Hardcoat)',    'desc' => 'Thicker, harder oxide layer for demanding applications. Excellent wear and corrosion resistance — ideal for automotive, electronics, and industrial equipment parts.'],
                 ['title' => 'Powder Coating',                   'desc' => 'Durable, thick coating available in many colors. Applied electrostatically and cured under heat. Excellent for enclosures, brackets, and housing parts.'],
                 ['title' => 'Electropolishing / Passivation',   'desc' => 'Electrochemical surface treatment for stainless steel parts. Smooths micro-irregularities, improves corrosion resistance, and creates a bright, sanitary finish.'],
             ];
@@ -319,7 +319,7 @@ get_header();
                     CNC Machining Solutions for Critical Industries
                 </h2>
                 <p class="text-muted max-w-3xl mx-auto">
-                    From medical and automotive to electronics and robotics, our drilled and tapped parts perform in the most demanding environments.
+                    From medical and automotive to electronics and industrial hardware, our drilled and tapped parts perform in the most demanding environments.
                 </p>
             </div>
 
@@ -353,16 +353,9 @@ get_header();
                     'url'   => '/industry/cnc-hardware-parts/',
                     'btn'   => 'Request Hardware Quote',
                 ],
-                [
-                    'title' => 'Robotics &amp; Automation',
-                    'desc'  => 'Precision drilled and tapped components for robot joints, actuator housings, and automation system assemblies.',
-                    'img'   => 'http://kmwcnc.com/wp-content/uploads/2025/11/Robotics-applocation.webp',
-                    'url'   => '/industry/robotics-automation-parts/',
-                    'btn'   => 'Request Robotics Quote',
-                ],
             ];
             ?>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
                 <?php foreach ($industries as $ind) : ?>
                     <div class="rounded-lg overflow-hidden bg-card border border-border/50">
                         <div class="aspect-[4/3] overflow-hidden">
@@ -460,9 +453,9 @@ get_header();
 
             <?php
             $faqs = [
-                ['q' => 'What types of CNC drilling services do you offer?',                  'a' => 'We offer standard CNC drilling, deep hole drilling (gun drilling & BTA), reaming, counterboring, countersinking, and CNC tapping. Both prototype and production volumes.'],
+                ['q' => 'What types of CNC drilling services do you offer?',                  'a' => 'We offer standard CNC drilling, deep-hole drilling (including BTA), reaming, counterboring, countersinking, and CNC tapping. Both prototype and production volumes.'],
                 ['q' => 'What is the smallest hole you can drill?',                            'a' => 'We can drill holes as small as Ø0.3mm using micro-drilling techniques. For standard drilling, our range is Ø0.5mm to Ø80mm.'],
-                ['q' => 'What is your deep hole drilling capability?',                         'a' => 'We achieve depth-to-diameter ratios up to 30:1 with gun drilling and BTA processes. Hole straightness within 0.5mm per 300mm of depth.'],
+                ['q' => 'What is your deep hole drilling capability?',                         'a' => 'We achieve depth-to-diameter ratios up to 30:1 with deep-hole drilling and BTA processes. Hole straightness within 0.5mm per 300mm of depth.'],
                 ['q' => 'What file formats do you accept for quoting?',                        'a' => 'We accept STEP, STP, IGES, STL, DWG, DXF, PDF, and most major CAD formats. STEP files are preferred for the most accurate quoting.'],
                 ['q' => 'Do you have a Minimum Order Quantity (MOQ)?',                         'a' => 'No MOQ. We handle everything from single prototypes to production runs of 100,000+ parts. Pricing is optimized based on volume.'],
                 ['q' => 'What is your standard lead time?',                                    'a' => 'Prototypes: 3-5 business days. Production orders: 7-15 business days depending on complexity and volume. Rush service available for 1-3 day turnaround.'],

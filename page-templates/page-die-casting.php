@@ -243,7 +243,7 @@ get_header();
                         Unmatched Scalability &amp; Cost Efficiency
                     </h2>
                     <p class="text-muted leading-relaxed mb-6">
-                        From 500 to over 500,000 parts per run, <strong>die casting drops significantly</strong> as volume increases. Our automated die casting cells with robotic trim presses and conveyor systems deliver consistent quality at industrial speed, making it the most economical choice for medium-to-high-volume production.
+                        From 500 to over 500,000 parts per run, <strong>die casting drops significantly</strong> as volume increases. Our automated die casting cells with trim presses and conveyor systems deliver consistent quality at industrial speed, making it the most economical choice for medium-to-high-volume production.
                     </p>
                     <div class="space-y-2 text-sm text-text">
                         <ul class="space-y-2">
@@ -311,7 +311,7 @@ get_header();
                     CNC Machining Solutions for Critical Industries
                 </h2>
                 <p class="text-muted max-w-3xl mx-auto">
-                    From medical devices to automotive and robotics, our parts perform in the most demanding environments.
+                    From medical devices to automotive and electronics, our parts perform in the most demanding environments.
                 </p>
             </div>
 
@@ -345,16 +345,9 @@ get_header();
                     'url'   => '/industry/cnc-hardware-parts/',
                     'btn'   => 'Get Hardware Quote',
                 ],
-                [
-                    'title' => 'Robotics &amp; Automation',
-                    'desc'  => 'Powering smart manufacturing. We produce high-precision gears, couplet flanges, and robot arm components with exceptional accuracy and longevity.',
-                    'img'   => 'http://kmwcnc.com/wp-content/uploads/2025/11/Robotics-applocation.webp',
-                    'url'   => '/industry/robotics-automation-parts/',
-                    'btn'   => 'Get Robotics Quote',
-                ],
             ];
             ?>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
                 <?php foreach ($industries as $ind) : ?>
                     <div class="rounded-lg overflow-hidden bg-card border border-border/50">
                         <div class="aspect-[4/3] overflow-hidden">

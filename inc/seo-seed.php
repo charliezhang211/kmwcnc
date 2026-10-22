@@ -281,7 +281,7 @@ function ulx_seo_seed_data() {
 
         'industry' => [
             'seo_title'       => 'Industries Served — Precision CNC Solutions | KMW CNC',
-            'seo_description' => 'KMW CNC serves medical, automotive, electronics, robotics, and hardware industries. ISO 9001 certified precision manufacturing.',
+            'seo_description' => 'KMW CNC serves medical, automotive, electronics, and hardware industries. ISO 9001 certified precision manufacturing.',
         ],
 
         'industry/cnc-medical-parts' => [
@@ -304,9 +304,5 @@ function ulx_seo_seed_data() {
             'seo_description' => 'Precision CNC parts for electronics: heat sinks, enclosures, and connectors. Aluminum and copper with thermal conductivity and EMI shielding.',
         ],
 
-        'industry/robotics-automation-parts' => [
-            'seo_title'       => 'CNC Parts for Robotics & Automation | KMW CNC',
-            'seo_description' => 'Custom CNC parts for robotics and automation: gears, robot arm casings, end-effectors. Heat treatment and assembly services available.',
-        ],
     ];
 }
