@@ -42,7 +42,7 @@ get_header();
                 Professional CNC Milling Manufacturer
             </h2>
             <p class="text-muted max-w-3xl mx-auto leading-relaxed">
-                As a specialist in subtractive manufacturing, KMW CNC is equipped with 3-, 4-, and 5-axis milling centers, Fanuc &amp; Mazak CNC milling systems. Whether you need rapid prototypes or lined-volume production, our ISO 9001 certified shop ensures superior quality every time.
+                As a specialist in subtractive manufacturing, KMW CNC is equipped with 3-, 4-, and 5-axis milling centers, Fanuc &amp; DMG CNC milling systems. Whether you need rapid prototypes or low-volume production, our ISO 9001 certified shop ensures superior quality every time.
             </p>
         </div>
     </section>

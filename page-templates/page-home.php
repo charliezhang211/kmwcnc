@@ -48,33 +48,6 @@ $contact_url = get_permalink(get_page_by_path('contact')) ?: home_url('/contact/
         </div>
     </section>
 
-    <!-- ② Trust Bar -->
-    <section class="py-10 lg:py-12 bg-card border-b border-border/50">
-        <div class="<?php ulx_container_class(); ?>">
-            <p class="text-center text-xs font-semibold uppercase tracking-[0.2em] text-muted mb-8">
-                Trusted by Innovative Engineers From:
-            </p>
-            <div class="flex flex-wrap items-center justify-center gap-8 lg:gap-14 opacity-60 grayscale">
-                <?php
-                $logos = [
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-1.webp', 'alt' => 'AMETEK'],
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-3.webp', 'alt' => 'TATA'],
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-4.webp', 'alt' => 'ABB'],
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-5.webp', 'alt' => 'DECA'],
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-6.webp', 'alt' => 'Saint-Gobain'],
-                    ['src' => '/wp-content/uploads/2025/11/logo-client-7.webp', 'alt' => 'KÄRCHER'],
-                ];
-                foreach ($logos as $logo) :
-                ?>
-                    <img src="<?php echo esc_url('http://kmwcnc.com' . $logo['src']); ?>"
-                         alt="<?php echo esc_attr($logo['alt']); ?>"
-                         class="h-8 lg:h-10 w-auto object-contain"
-                         loading="lazy" />
-                <?php endforeach; ?>
-            </div>
-        </div>
-    </section>
-
     <!-- ③ Comprehensive Manufacturing Solutions -->
     <section class="py-16 lg:py-24 bg-card">
         <div class="<?php ulx_container_class(); ?>">
